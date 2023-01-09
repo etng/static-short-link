@@ -1,0 +1,19 @@
+{
+ "redirects": [
+  {
+   "source": "/g",
+   "destination": "https://github.com/etng/",
+   "permanent": true
+  },
+  {
+   "source": "/f",
+   "destination": "https://github.com/etng/fanxinzhui_feed",
+   "permanent": false
+  },
+  {
+   "source": "/m",
+   "destination": "https://mail.google.com/",
+   "permanent": false
+  }
+ ]
+}

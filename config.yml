@@ -1,0 +1,17 @@
+redirects:
+  - source: /g
+    name: "github"
+    destination: https://github.com/etng/
+    permanent: true
+  - source: /f
+    name: "追新番种子"
+    destination: https://github.com/etng/fanxinzhui_feed
+    permanent: false
+  - source: /m
+    name: "Gmail"
+    destination: https://mail.google.com/
+    permanent: false
+site:
+  name: Static Short Link Maker
+  powered_by: '<a href="https://github.com/etng/static-short-link">Static Short Link Maker</a>'
+  description: 'A simple, minimal and safe URL Shortener. Easy to use!'
