@@ -42,8 +42,8 @@
     <pre><code>URL lists:
         {{- range $i, $redirection := .Redirects -}}
         {{- if $i -}} |{{- end -}}
-        <a href="{{ $redirection.Destination }}" data-idx="{{ $i }}"> {{ $redirection.Name }} </a>
-        {{ end -}}
+        <a href="{{ $redirection.Source }}" data-target="{{ $redirection.Destination }}" data-idx="{{ $i }}"> {{ $redirection.Name }} </a>
+        {{- end -}}
     </code></pre>
     <pre><code>{{.Site.Name}} / <a href="/index.html">Home</a>
 

@@ -7,3 +7,4 @@ save:
 	git push origin master -u
 	git tag -a ${VERSION} -m ${VERSION} -f
 	git push origin ${VERSION} -f
+all: run save
